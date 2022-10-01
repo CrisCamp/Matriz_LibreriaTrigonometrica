@@ -18,7 +18,6 @@ int main()
 	cout << *evaNum;
 }*/
 
-
 class Matriz
 {
 private:
@@ -83,7 +82,7 @@ public:
 	void funcionesTri()
 	{
 		int A[100][100], i, j, op;
-		float a;
+		double a;
 
 		cout << "Introduzca los datos de la matriz: " << endl;
 		for (i = 0; i < fa; i++)
